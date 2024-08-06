@@ -39,7 +39,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Demo styles -->
 
     <style>
       [x-cloak] {
@@ -49,22 +48,14 @@
     <script src="//unpkg.com/alpinejs" defer></script>
   </head>
   <body>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-         PRELOADER STARTS
-         -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
     <div id="preloader">
       <div id="status">
         <div class="spinner"></div>
       </div>
     </div>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-         PRELOADER END
-         -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
+
     <header class="header-5">
       <div class="container">
-        <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-         TOPBAR START
-         -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
         <div class="top-bar">
           <div class="container">
             <div class="row">
@@ -78,27 +69,11 @@
             </div>
           </div>
         </div>
-        <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-         TOPBAR END
-         -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
-        <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-               NAVIGATION STARTS
-               -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
+
         <div class="navbar-header">
-          <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-                  BURGR MENU START
-                  -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
           <button class="burger-menu easy-sidebar-toggle"></button>
-          <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-                  BURGR MENU END
-                  -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
-          <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-                  LOGO START
-                  -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
+
           <a class="navbar-brand" href="/"><img src="images/logo-azer.png" alt="logo" /></a>
-          <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-                  LOGO END
-                  -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
         </div>
         <nav class="navbar navbar-default border-0">
           <div class="container">
@@ -111,17 +86,48 @@
                   <a aria-expanded="false" aria-haspopup="true" href="services.html" role="button"> Xidmətlər </a>
                 </li>
                 <li class="dropdown">
+                  <a
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    href="#"
+                    role="button"
+                  >
+                    Xidmətlər<span class="x-caret"></span
+                  ></a>
+                  <ul class="dropdown-menu dropdown-menu-left">
+                    <li><a href="services.html">Məsləhət </a></li>
+                    <li><a href="services.html">Mühəndislik</a></li>
+                    <li><a href="services.html">Satınalma</a></li>
+                    <li><a href="services.html">Təmir Xidmətləri</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    href="#"
+                    role="button"
+                  >
+                    Məhsullar<span class="x-caret"></span
+                  ></a>
+                  <ul class="dropdown-menu dropdown-menu-left">
+                    <li><a href="projects_grid_4col.html">Slinder</a></li>
+                    <li><a href="projects_grid_4col.html">Texnika Motoru</a></li>
+                    <li><a href="projects_grid_4col.html">Şaft</a></li>
+                    <li><a href="projects_grid_4col.html">Tokar Rişləri</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
                   <a aria-expanded="false" aria-haspopup="true" href="about.html" role="button"> Haqqımızda</a>
                 </li>
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                   <a aria-expanded="false" aria-haspopup="true" href="projects_grid_4col.html" role="button"> Məhsullar</a>
-                </li>
-                <li class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" href="blog_left_side_bar.html" role="button"> Layihələr</a>
-                </li>
-                <li class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" href="element_testimonials.html" role="button"> Zəmanət</a>
-                </li>
+                </li> -->
+
                 <li class="dropdown">
                   <a aria-expanded="false" aria-haspopup="true" href="contact.html" role="button"> Əlaqə</a>
                 </li>
@@ -169,9 +175,7 @@
         </nav>
       </div>
     </header>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-                           SLIDER START
-                           -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
+
     <div class="slider slider-2-buttons">
       <div id="rev_slider_204_1_wrapper" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive">
         <!-- START REVOLUTION SLIDER 5.1.1RC auto mode -->
@@ -199,10 +203,6 @@
                 class="rev-slidebg"
                 data-no-retina
               />
-           
-             
-             
-             
             </li>
             <li
               data-index="rs-5"
@@ -218,7 +218,7 @@
               data-description=""
             >
               <img
-                src="images/revslider/slider-02.jpg"
+                src="images/revslider/01_Home.psd.png"
                 alt=""
                 data-bgposition="center top"
                 data-bgfit="cover"
@@ -241,9 +241,12 @@
                 data-splitin="none"
                 data-splitout="none"
                 data-responsive_offset="on"
-                style="z-index: 5; white-space: nowrap; border-color: rgba(255, 255, 255, 1)"
+                style="z-index: 5; white-space: nowrap; border-color: rgba(255, 255, 255, 1); text-align: center"
               >
-                <span class="darna-slider-border-bottom">Crusher xətlərinin dizaynı</span>
+                <span class="darna-slider-border-bottom"
+                  >AZER Technique, Alvand Crusher-in<br />
+                  rəsmi distribütoru olaraq</span
+                >
               </div>
               <div
                 class="tp-caption darnasmalltext tp-resizeme"
@@ -262,28 +265,10 @@
                 data-responsive_offset="on"
                 style="z-index: 6; white-space: nowrap; border-color: rgba(255, 255, 255, 1)"
               >
-                Peşəkar Dizayn və İstehsal Xidmətləri<br />
-                Müasir Texnologiyalarla Avropa Keyfiyyəti
-              </div>
-              <div
-                class="tp-caption tp-resizeme"
-                id="slide-5-layer-3"
-                data-x="center"
-                data-hoffset="0"
-                data-y="382"
-                data-width="auto"
-                data-height="auto"
-                data-transform_idle=""
-                data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:1000;e:easeOutBounce;"
-                data-transform_out="x:200px;skX:-85px;opacity:0;s:300;s:300;"
-                data-start="2000"
-                data-splitin="none"
-                data-splitout="none"
-                data-responsive_offset="on"
-                style="z-index: 7; white-space: nowrap"
-              >
-                <a href="about.html" class="darna-button style1 size-md" style="margin-right: 10px">Haqqımızda</a>
-                <a href="projects_grid_4col.html" class="darna-button style2 size-md">Layihələrə bax</a>
+                <p class="p-1">
+                  yüksək keyfiyyətli məhsulları və <br />
+                  peşəkar xidmətləri ilə tanınır.
+                </p>
               </div>
             </li>
             <li
@@ -323,9 +308,9 @@
                 data-splitin="none"
                 data-splitout="none"
                 data-responsive_offset="on"
-                style="z-index: 5; white-space: nowrap; border-color: rgba(255, 255, 255, 1)"
+                style="z-index: 5; border-color: rgba(255, 255, 255, 1)"
               >
-                Crusher maşınlarının istehsalı
+                Crusher Avadanlıqları
               </div>
               <div
                 class="tp-caption darnalargeprimarybg tp-resizeme"
@@ -347,12 +332,12 @@
                   z-index: 6;
                   white-space: nowrap;
                   color: rgba(255, 255, 255, 1);
-                  background-color: #e48028;
+                  background-color: #e28025;
                   padding: 15px 20px 15px 20px;
                   border-color: rgba(255, 255, 255, 1);
                 "
               >
-                Yüksək Keyfiyyətli Crusher Avadanlıqları
+                Crusher parçalarının satışı
               </div>
               <div
                 class="tp-caption darnasmalltext2 tp-resizeme"
@@ -369,31 +354,14 @@
                 data-splitin="none"
                 data-splitout="none"
                 data-responsive_offset="on"
-                style="z-index: 7; white-space: nowrap; border-color: rgba(255, 255, 255, 1)"
+                style="z-index: 7; padding: 10px; border-color: rgba(255, 255, 255, 1)"
               >
-                Məhsullarımızın keyfiyyətini artırmaq üçün ən son texniki və<br />
-                mühəndis biliklərindən və davamlı təcrübə və tədqiqatdan istifadə edirik ki, bu da bu kolleksiyanın əsas<br />
-                prioritetlərindən biridir.
-              </div>
-              <div
-                class="tp-caption tp-resizeme"
-                id="slide-6-layer-4"
-                data-x="center"
-                data-hoffset="0"
-                data-y="430"
-                data-width="auto"
-                data-height="auto"
-                data-transform_idle=""
-                data-transform_in="opacity:0;s:300;e:Power3.easeInOut;"
-                data-transform_out="auto:auto;s:300;"
-                data-start="2000"
-                data-splitin="none"
-                data-splitout="none"
-                data-responsive_offset="on"
-                style="z-index: 8; white-space: nowrap"
-              >
-                <a href="about.html" class="darna-button style1 size-md" style="margin-right: 10px">Haqqımızda</a>
-                <a href="projects_grid_4col.html" class="darna-button style2 size-md">Layihələrə bax</a>
+                <p class="p-1">
+                  Avadanlıqların satışı, peşəkar <br />
+                  quraşdırılması, hərtərəfli texniki <br />
+                  dəstək və bütün ehtiyat hissələrinin <br />
+                  təminatı ilə etibarlı xidmətinizdəyik.
+                </p>
               </div>
             </li>
           </ul>
@@ -401,69 +369,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="service-box3">
-      <div class="container">
-        <div class="content-head text-center text-uppercase">
-          <h4>More Services</h4>
-          <p>Always dedicated and devoted</p>
-        </div>
-        <div class="row">
-          <div id="service-box3" class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="s3-box text-center">
-                <span class="s3-box-ico"><i class="fa fa-cog" aria-hidden="true"></i> </span>
-                <h3 class="text-uppercase"><a href="#">Work</a></h3>
-                <p>
-                  Temporibus autem quibusdam et aut officiis debitis is aut necessitatibus saepe eveniet ut et seo lage voluptates
-                  sint et molestiae non mes
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="s3-box text-center">
-                <span class="s3-box-ico"><i class="fa fa-dashboard"></i> </span>
-                <h3 class="text-uppercase"><a href="#">Administraion</a></h3>
-                <p>
-                  Temporibus autem quibusdam et aut officiis debitis is aut necessitatibus saepe eveniet ut et seo lage voluptates
-                  sint et molestiae non mes
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="s3-box text-center">
-                <span class="s3-box-ico"><i class="fa fa-gavel"></i> </span>
-                <h3 class="text-uppercase"><a href="#">Tools</a></h3>
-                <p>
-                  Temporibus autem quibusdam et aut officiis debitis is aut necessitatibus saepe eveniet ut et seo lage voluptates
-                  sint et molestiae non mes
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="s3-box text-center">
-                <span class="s3-box-ico"><i class="fa fa-pie-chart"></i> </span>
-                <h3 class="text-uppercase"><a href="#">Charts</a></h3>
-                <p>
-                  Temporibus autem quibusdam et aut officiis debitis is aut necessitatibus saepe eveniet ut et seo lage voluptates
-                  sint et molestiae non mes
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="s3-box text-center">
-                <span class="s3-box-ico"><i class="fa fa-suitcase"></i> </span>
-                <h3 class="text-uppercase"><a href="#">Business</a></h3>
-                <p>
-                  Temporibus autem quibusdam et aut officiis debitis is aut necessitatibus saepe eveniet ut et seo lage voluptates
-                  sint et molestiae non mes
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  -->
 
     <!-- SLIDER OF OUR PRODUCTS -->
     <div class="relative_swiper">
@@ -532,119 +437,140 @@
       </div>
     </div>
     <!-- SLIDER OF OUR PRODUCTS -->
-    <div class="container-fluid no-padding">
-      <div class="project-filter text-uppercase">
-        <a id="all" class="active" href="#"> <i class="fa fa-spinner fa-spin"></i><span>Alvand Crusher</span></a>
+
+    <div>
+      <div class="alvand">
+        <div class="project-filter text-uppercase">
+          <a id="all" href="#"><span>Alvand Crusher</span></a>
+        </div>
       </div>
-      <div class="project-info">
-        <div id="home-projects" class="owl-carousel">
-          <div class="project-item item Architecture Construction">
-            <img alt="" class="img-responsive" src="images/slider-alvand/asphalt-planet.png" />
-            <div class="project-overlay">
-              <h4><a href="#">Asphalt Plant</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/slider-alvand/asphalt-planet.png">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
+      <div class="relative_swiper">
+        <div class="slider_main">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-7">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide-8">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide-9">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide-10">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide-11">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slide-12">
+                <div class="swiper-div">
+                  <img class="alvand-logo" src="images/alvand-logo.jpg" alt="alvand" />
+                  <div class="slide-content">
+                    <img class="alvand-logo-hover" src="images/alvand-logo.jpg" alt="alvand" />
+                    <a href="#">_________</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="project-item item Architecture Construction">
-            <img alt="" class="img-responsive" src="images//slider-alvand/belt-conveyor.png" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/slider-alvand/belt-conveyor.png">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Construction">
-            <img alt="" class="img-responsive" src="images/slider-alvand/spiral-sand-washer.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/slider-alvand/spiral-sand-washer.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Architecture Construction">
-            <img alt="" class="img-responsive" src="images/slider-alvand/thickener.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/slider-alvand/thickener.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Architecture InteriorDesign">
-            <img alt="" class="img-responsive" src="images/home/projects/5.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/home/projects/5.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Architecture">
-            <img alt="" class="img-responsive" src="images/home/projects/6.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/home/projects/6.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item InteriorDesign">
-            <img alt="" class="img-responsive" src="images/home/projects/7.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/home/projects/7.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Construction">
-            <img alt="" class="img-responsive" src="images/home/projects/8.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/home/projects/8.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
-          </div>
-          <div class="project-item item Architecture">
-            <img alt="" class="img-responsive" src="images/home/projects/9.jpg" />
-            <div class="project-overlay">
-              <h4><a href="#">Miami house</a></h4>
-              <span class="project-cat">Architecture, Construction</span>
-              <a class="project-view" href="#"><i class="fa fa-link"> </i></a>
-              <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/home/projects/9.jpg">
-                <i class="fa fa-arrows-alt"></i
-              ></a>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div id="projects-copy" class="hide"></div>
-        <div class="container"><a class="bttn bttn-md" href="#">View All Projects</a></div>
       </div>
     </div>
 
-    <!-- SLIDER OF OUR PRODUCTS -->
-
+    <!-- GALERY -->
+    <div class="container-me">
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img
+            src="images/revslider/telehandler.jpg"
+            class="gallery__img"
+            alt="Image 1"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img
+            src="images/revslider/svarka.jpeg"
+            class="gallery__img"
+            alt="Image 2"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img
+            src="images/revslider/buldozer.jpeg"
+            class="gallery__img"
+            alt="Image 3"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img
+            src="images/revslider/crusher.jpg"
+            class="gallery__img"
+            alt="Image 4"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+          <img
+            src="images/revslider/loder.jpeg"
+            class="gallery__img"
+            alt="Image 5"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+          <img
+            src="images/revslider/eskavator.jpeg"
+            class="gallery__img"
+            alt="Image 6"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+          />
+        </figure>
+      </div>
+    </div>
+    <!-- GALERY -->
     <div class="home-features-side margin-bottom-100">
       <div class="container">
         <div class="content-head text-uppercase text-center">
@@ -710,163 +636,6 @@
       <div class="triangle triangle-bottom-right"></div>
     </div>
 
-    <div class="home-projects-full home-projects-full-filter portfolio-wrap-main">
-      <div class="container no-padding">
-        <div class="folio-filter-wrap">
-          <ul class="folio-filter center-block list-inline" data-option-key="filter">
-            <li><a class="active" href="#filter" data-option-value="*">All</a></li>
-            <li><a href="#" data-option-value=".architecture">Architecture</a></li>
-            <li><a href="#" data-option-value=".contruction">Contruction</a></li>
-            <li><a href="#" data-option-value=".interiordesign">Interior Design</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="container no-padding">
-        <div class="folio-full portfolio-grid-4col">
-          <div class="folio-item architecture interiordesign">
-            <div class="project-item">
-              <img src="images/image_of_us/1.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/1.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item contruction">
-            <div class="project-item">
-              <img src="images/image_of_us/2.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/2.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item interiordesign">
-            <div class="project-item">
-              <img src="images/image_of_us/3.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us//3">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item architecture interiordesign">
-            <div class="project-item">
-              <img src="images/image_of_us/4.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/4.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item contruction">
-            <div class="project-item">
-              <img src="images/image_of_us/1.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/1">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item interiordesign contruction">
-            <div class="project-item">
-              <img src="images/image_of_us/2.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/2.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item architecture">
-            <div class="project-item">
-              <img src="images/image_of_us/3.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/3.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="folio-item contruction">
-            <div class="project-item">
-              <img src="images/image_of_us/4.png" class="img-responsive" alt="" />
-              <div class="project-overlay">
-                <h4><a href="#">Miami house</a></h4>
-                <span class="project-cat">Architecture, Construction</span>
-                <a href="#" class="project-view"><i class="fa fa-link"></i></a>
-                <a class="project-expand prettyPhoto" data-rel="prettyPhoto" href="images/image_of_us/4.png">
-                  <i class="fa fa-arrows-alt"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="container text-center space-top-50"><a href="#" class="bttn bttn-md lmore center-block">Load More</a></div> -->
-    </div>
-
-   
-    <div class="home-quotes2">
-      <div class="container">
-        <div class="row">
-          <!-- <div class="col-md-4"><img src="images/image_of_us/employee.png" alt="" /></div> -->
-          <div class="col-md-12 margin-top-20">
-            <div class="owl-item-auto">
-              <div class="quote-info text-center">
-                <p>
-                  Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
-                  pellentesque felisCras consequat.
-                </p>
-                <i class="fa fa-quote-left"></i> <cite class="text-uppercase">Cras Henry<span>G5 - Rome - Italia</span></cite>
-              </div>
-              <div class="quote-info text-center">
-                <p>
-                  Morbi in sem quis dui Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
-                  Aenean dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euis. Cras
-                  consequat.
-                </p>
-                <i class="fa fa-quote-left"></i> <cite class="text-uppercase">felis Henry<span>G5 - Rome - Italia</span></cite>
-              </div>
-              <div class="quote-info text-center">
-                <p>
-                  dui placerat Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean
-                  dignissim pellentesque felis. Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euis. Cras
-                  consequat.
-                </p>
-                <i class="fa fa-quote-left"></i> <cite class="text-uppercase">Ornare<span>G5 - Rome - Italia</span></cite>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="clients">
       <div class="container">
         <div class="content-head text-center text-uppercase">
@@ -879,10 +648,6 @@
         <a href="#"> <img src="images/brands/partner-list-2.png" alt="" /> </a>
         <a href="#"> <img src="images/brands/partner-list-3.png" alt="" /> </a>
         <a href="#"> <img src="images/brands/partner-list-4.png" alt="" /> </a>
-        <a href="#"> <img src="images/brands/partner-list-5.png" alt="" /> </a>
-        <a href="#"> <img src="images/brands/partner-list-6.png" alt="" /> </a>
-        <a href="#"> <img src="images/brands/partner-list-7.png" alt="" /> </a>
-        <a href="#"> <img src="images/brands/partner-list-8.png" alt="" /> </a>
       </div>
     </div>
 
@@ -892,17 +657,18 @@
         <div class="row">
           <div class="col-md-6 col-md-push-3 text-center">
             <div class="footer-logo">
-              <a href="./index.html"> <img alt="" src="images/logo-light.png" /></a>
+              <a class="logo-footer" href="./index.html"> <img alt="logo" src="images/logo-azer.png" /></a>
               <div class="clear"></div>
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. ligula
-                eget dolor. Aenean massa. Lanorere for get cum sociis natoque penatibus et magnis.
+                Avadanlıqların satışı, təmiri və bütün ehtiyat hissələrinin təminatında mükəmməllik standartlarımızla,
+                müştərilərimizə üstün xidmət və keyfiyyət təqdim edirik. Bizimlə işləyərək hər zaman güvən və məmnuniyyət təmin
+                edəcəksiniz.
               </p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <div class="footer-widget">
               <h5>Get in touch</h5>
               <ul class="footer-contact">
@@ -913,7 +679,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <div class="footer-widget">
               <h5>Business Hours</h5>
               <ul class="footer-contact">
@@ -924,13 +690,8 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="footer-widget">
-              <h5>Twitter Feeds</h5>
-              <div id="tweecool"></div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
+
+          <div class="col-md-4 col-sm-6">
             <div class="footer-widget">
               <h5>Mailing List</h5>
               <div class="footer-newsletter">
@@ -954,17 +715,12 @@
               </ul>
             </div>
             <div class="col-md-6">
-              <p class="pull-right text-uppercase">
-                &copy; 2015 Darna Construction is proudly powered by <a href="#">Your company</a>
-              </p>
+              <p class="pull-right text-uppercase">&copy; 2024 made by <a href="#">Robyte</a></p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-    <!-- -- -- -- -
-Search popup start
--- -- -- -- -->
     <div id="search">
       <button class="close" type="button"><i aria-hidden="true" class="fa fa-times"></i></button>
       <form>
@@ -972,37 +728,8 @@ Search popup start
         <button class="btn btn-primary" type="submit"><i aria-hidden="true" class="fa fa-search"></i></button>
       </form>
     </div>
-    <!-- -- -- -- -
-Search popup end
--- -- -- -- -->
-    <!-- -- -- -- -
-Search quote start
--- -- -- -- -->
-    <div id="quote">
-      <button class="close" type="button"><i aria-hidden="true" class="fa fa-times"></i></button>
-      <form>
-        <textarea placeholder="Type message here"></textarea>
-        <button class="btn btn-primary" type="submit"><i aria-hidden="true" class="fa fa-envelope"></i></button>
-      </form>
-    </div>
-    <!-- -- -- -- -
-Search quote end
--- -- -- -- -->
-    <!-- -- -- -- -
-back-to-top start
--- -- -- -- -->
     <a class="back-to-top" href=".top-bar"> <i aria-hidden="true" class="fa fa-chevron-up"></i></a>
-    <!-- -- -- -- -
-back-to-top end
--- -- -- -- -->
-    <!-- -- -- -- -
-overlay div start
--- -- -- -- -->
     <div class="overlay hided"></div>
-    <!-- -- -- -- -
-overlay div end
--- -- -- -- -->
-    <!-- jquery -->
     <script src="js/jquery.js"></script>
     <!-- bootstrap -->
     <script src="js/bootstrap.min.js"></script>
@@ -1039,7 +766,6 @@ overlay div end
     <link href="revolution/css/settings.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
@@ -1170,15 +896,9 @@ overlay div end
         }
       }); /*ready*/
     </script>
-    <!-- Main Javascript -->
-    <!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+
     <script src="js/jquery.style.switcher.js"></script>
     <script src="js/main.js"></script>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-        !!WARINING THIS IS FOR DEMO ONLY YOU CAN DELETE IT 
-         COLOR SWITCHER AND BOXED/WIDE VIEW STARTS
-         -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
-    <link href="css/color.css" rel="stylesheet" id="theme-switch" />
 
     <script>
       jQuery(function () {
