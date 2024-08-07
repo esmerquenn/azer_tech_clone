@@ -10,7 +10,7 @@
     <!-- Mobile Metas -->
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- Favicon -->
-    <link href="images/favicon.ico" rel="shortcut icon" />
+    <link href="images/logo-azer.png" rel="shortcut icon" />
     <!-- font-awesome -->
     <link href="css/font-awesome/css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
     <!-- bootstrap -->
@@ -886,24 +886,5 @@
     <script src="js/jquery.style.switcher.js"></script>
     <script src="js/main.js"></script>
 
-    <script>
-      jQuery(function () {
-        jQuery("#colour-variations ul").styleSwitcher({
-          defaultThemeId: "theme-switch",
-          hasPreview: false,
-          cookie: { expires: 30, isManagingLoad: true },
-        });
-        jQuery(".option-toggle").click(function () {
-          jQuery("#colour-variations").toggleClass("sleep");
-        });
-        if (jQuery.cookie("layoutCookie") != "") {
-          jQuery("body").addClass(jQuery.cookie("layoutCookie"));
-        }
-      });
-    </script>
-    <!-- -- -- - -- -- -- - -- -- -- - -- -- -- -- -
-        !!WARINING THIS IS FOR DEMO ONLY YOU CAN DELETE IT 
-         COLOR SWITCHER AND BOXED/WIDE VIEW END
-    -- -- -- - -- -- -- - -- -- -- - -- -- -- -- -->
   </body>
 </html>
