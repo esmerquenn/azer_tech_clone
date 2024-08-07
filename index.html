@@ -6,7 +6,7 @@
     <meta content="HTML5 Template" name="keywords" />
     <meta content="" name="description" />
     <meta content="" name="author" />
-    <title>Atlas Crusher Co.</title>
+    <title>azer technique</title>
     <!-- Mobile Metas -->
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <!-- Favicon -->
@@ -62,8 +62,8 @@
               <div class="col-md-7 tb-right">
                 <ul class="list-inline text-uppercase">
                   <li><i class="fa fa-clock-o"></i>Baki azerbaycan, Ahmed recebly</li>
-                  <li><i class="fa fa-phone"></i> Tel: +994 50 335 45 49</li>
-                  <li><i class="fa fa-envelope"></i> <a href="mailto:darna@company.com">atlascrusher.com</a></li>
+                  <li><i class="fa fa-phone"></i> Tel: +994 50 500 37 17</li>
+                  <li><i class="fa fa-envelope"></i> <a href="mailto:darna@company.com">azertechnique.com</a></li>
                 </ul>
               </div>
             </div>
@@ -81,9 +81,6 @@
               <ul class="nav navbar-nav navbar-right">
                 <li>
                   <a aria-expanded="false" aria-haspopup="true" href="/" role="button"> Ana səhifə</a>
-                </li>
-                <li class="dropdown">
-                  <a aria-expanded="false" aria-haspopup="true" href="services.html" role="button"> Xidmətlər </a>
                 </li>
                 <li class="dropdown">
                   <a
@@ -515,61 +512,26 @@
     <div class="container-me">
       <div class="gallery">
         <figure class="gallery__item gallery__item--1">
-          <img
-            src="images/revslider/telehandler.jpg"
-            class="gallery__img"
-            alt="Image 1"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/telehandler.jpg" class="gallery__img" alt="Image 1" />
         </figure>
         <figure class="gallery__item gallery__item--2">
-          <img
-            src="images/revslider/svarka.jpeg"
-            class="gallery__img"
-            alt="Image 2"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/svarka.jpeg" class="gallery__img" alt="Image 2" />
         </figure>
         <figure class="gallery__item gallery__item--3">
-          <img
-            src="images/revslider/buldozer.jpeg"
-            class="gallery__img"
-            alt="Image 3"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/buldozer.jpeg" class="gallery__img" alt="Image 3" />
         </figure>
         <figure class="gallery__item gallery__item--4">
-          <img
-            src="images/revslider/crusher.jpg"
-            class="gallery__img"
-            alt="Image 4"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/crusher.jpg" class="gallery__img" alt="Image 4" />
         </figure>
         <figure class="gallery__item gallery__item--5">
-          <img
-            src="images/revslider/loder.jpeg"
-            class="gallery__img"
-            alt="Image 5"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/loder.jpeg" class="gallery__img" alt="Image 5" />
         </figure>
         <figure class="gallery__item gallery__item--6">
-          <img
-            src="images/revslider/eskavator.jpeg"
-            class="gallery__img"
-            alt="Image 6"
-            data-bs-toggle="modal"
-            data-bs-target="#imageModal"
-          />
+          <img src="images/revslider/eskavator.jpeg" class="gallery__img" alt="Image 6" />
         </figure>
       </div>
     </div>
+   
     <!-- GALERY -->
     <div class="home-features-side margin-bottom-100">
       <div class="container">
@@ -767,6 +729,30 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const galleryItems = document.querySelectorAll(".gallery__img");
+        const overlay_img = document.createElement("div");
+        overlay_img.className = "overlay_img";
+        document.body.appendChild(overlay_img);
+
+        const overlayImage = document.createElement("img");
+        overlay_img.appendChild(overlayImage);
+
+        galleryItems.forEach((item) => {
+          item.addEventListener("click", function () {
+            overlayImage.src = this.src;
+            overlay_img.classList.add("active-overlay");
+          });
+        });
+
+        overlay_img.addEventListener("click", function () {
+          overlay_img.classList.remove("active-overlay");
+        });
+      });
+
+
       var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
         loop: true,

@@ -998,7 +998,7 @@ header .collapse.in {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #000;
+    color: #ffffff;
     font-size: 36px;
     position: relative;
     /* right: 29px;*/
@@ -1518,6 +1518,9 @@ header.header-5 .navbar.easy-sidebar .burger-menu:before {
     left: 0;
     right: 0;
 }
+.header-contact{
+    background: #AEADAE;
+}
 
 .header-5 .navbar-default {
     background: #192437;
@@ -1571,20 +1574,6 @@ header.header-5 .navbar.easy-sidebar .burger-menu:before {
 .navbar-brand img{
     width: 100%;
 }
-
-/* .header-5 .navbar-brand:after {
-    content: '';
-    display: block;
-    left: 100%;
-    top: 0;
-    height: 100%;
-    position: absolute;
-    border-top-width: 132px;
-    border-top-style: solid;
-    border-right: solid 30px transparent;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-} */
 
 .header-5 .navbar-header {
     margin-top: -45px;
@@ -2556,23 +2545,6 @@ ul.vertical-images li:hover .button {
 
 
 /* -----------------------------------------------------------------------------PAGE ------------------ */
-
-.page-head-shop.overlay-wrap {
-    height: 300px;
-    width: 100%;
-    position: relative;
-    color: #fff;
-    margin-bottom: 100px;
-    background-color: #2a2a2a
-}
-
-.page-head-shop.overlay-wrap .container {
-    height: 100%
-}
-
-.page-head-shop.overlay-wrap .block-center {
-    text-align: left
-}
 
 .overlay {
     background: #000;
@@ -4243,20 +4215,14 @@ a#playVid i {
 
 .page-head,
 .page-head-blog,
-.page-head-shop,
 .page-head-project {
-    background: #000 url(../images/head/bg-page-title.jpg) no-repeat center;
+    margin-top: 18vh;
+    background: #000 url(../images/head/banner_contact.jpg) no-repeat 70%/cover;
     background-size: cover;
-    padding: 102px 0px 101px;
+    padding: 300px 0px 101px;
 }
 
-.page-head-blog {
-    background: #000 url(../images/head/bg-blog-title.jpg) no-repeat center;
-}
 
-.page-head-shop {
-    background: #000 url(../images/head/bg-shop-title.jpg) no-repeat center;
-}
 
 .page-head-project {
     background: #000 url(../images/head/bg-project.title.jpg) no-repeat center;
@@ -7204,10 +7170,6 @@ table.shop_table.customer_details td {
     border: 0;
 }
 
-.header-2 .easy-sidebar .navbar-nav .open .dropdown-menu>li>a,
-.header-2 .burger-menu:before,
-.header-2 .easy-sidebar .navbar-nav .open .dropdown-menu>li>a:hover,
-.header-3 .easy-sidebar .navbar-nav .open .dropdown-menu>li>a,
 .header-5 .easy-sidebar .navbar-nav .open .dropdown-menu>li>a,
 .header-5 .easy-sidebar .navbar-nav .open .dropdown-menu>li>a:hover {
     color: #fff

@@ -5,17 +5,13 @@ if ($action=="")    /* display the contact form */
     ?>
     <!DOCTYPE html>
     <html>
-    <!-- [if IE 8]>			<html class="ie ie8"> <![endif]-->
-    <!-- [if IE 9]>			<html class="ie ie9"> <![endif]-->
-    <!-- [if gt IE 9]><html> <!-- <![endif] -->
-
     <head>
         <!-- Meta -->
         <meta charset="utf-8">
         <meta content="HTML5 Template" name="keywords" />
         <meta content="" name="description">
         <meta content="" name="author">
-        <title>Darna - Responsive Multipurpose Construction Template</title>
+        <title>azer technique</title>
         <!-- Mobile Metas -->
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <!-- Favicon -->
